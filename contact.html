@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Stories</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <header>
+        <img src="images/desert.jpg" alt="aircraft">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="stories.html">Stories</a>
+            <a href="contact.html">Reach Me</a>
+        </nav>
+        <section>
+            <h1>Lets connect</h1>
+            <blockquote>"Life is Either a daring adventure or nothing at all"</blockquote>
+         </section>      
+    </header>
+
+    <main class="contact">
+    <article>
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+                </select>
+                <br>
+                
+                <label for="how">How did you hear about me?</label>
+                <input type="radio" id="website" name="how" checked> Website
+                <input type="radio" id="facebook" name="how"> Facebook
+
+                <br>
+                <label for="comment">Comments</label>
+                <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+                <br>
+
+                <input type="submit" value="Submit">
+            
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        Copyright 2020. All rights revserved. Made with &#10084;
+    </footer>
+</body>
+</html>
