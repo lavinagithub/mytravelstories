@@ -1,0 +1,149 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  text-align: center;
+}
+
+header > img {
+  height: 300px;
+ 
+}
+
+/* Add a  background color to the top navigation */
+nav {
+  background-color: #ce5555;
+  overflow: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Change the colour of links on hover */
+nav a:hover {
+  background-color: #77bdbf;
+  color: #292525;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3em;
+  color: #545050;
+}
+
+blockquote {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  color: #4b2a4398;
+}
+
+/* Home page content */
+.homecontent {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  width: 70%;
+  /* border: 3px solid #000000; */
+  margin: auto;
+  text-align: justify;
+}
+.listPlaces {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+/* end Home page content */
+
+/** begin Stories page */
+.stories {
+  width: 80%;
+  margin: auto;
+}
+.stories > article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  padding: 2px;
+  font-family: arial;
+  float: left;
+}
+.stories > article > p,
+h3 {
+  padding: 2px;
+  margin: 5px;
+  color: #803376;
+}
+.stories > article > img {
+  width: 300px;
+   opacity: 0.8;
+}
+
+/* end stories page content */
+
+/** begin contact page **/
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+}
+
+/* end contact page content */
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
