@@ -8,7 +8,6 @@ header {
 
 header > img {
   height: 300px;
- 
 }
 
 /* Add a  background color to the top navigation */
@@ -73,6 +72,8 @@ blockquote {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   padding: 2px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   font-family: arial;
   float: left;
 }
@@ -84,7 +85,7 @@ h3 {
 }
 .stories > article > img {
   width: 300px;
-   opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* end stories page content */
@@ -143,7 +144,8 @@ input[type="submit"]:hover {
 /* end contact page content */
 
 footer {
-  margin-top: 20px;
+  padding-top: 40px;
   text-align: center;
+  clear: both;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
