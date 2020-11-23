@@ -13,8 +13,8 @@ header > img {
 /* Add a  background color to the top navigation */
 nav {
   background-color: #ce5555;
+  overflow: hidden;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin-top: -4px;
 }
 
 /* Style the links inside the navigation bar */
@@ -66,10 +66,7 @@ blockquote {
 /** begin Stories page */
 .stories {
   width: 80%;
-  margin: 20px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: auto;
 }
 .stories > article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -78,8 +75,8 @@ blockquote {
   margin-bottom: 20px;
   margin-right: 20px;
   font-family: arial;
+  float: left;
 }
-
 .stories > article > p,
 h3 {
   padding: 2px;
@@ -149,5 +146,6 @@ input[type="submit"]:hover {
 footer {
   padding-top: 40px;
   text-align: center;
+  clear: both;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
